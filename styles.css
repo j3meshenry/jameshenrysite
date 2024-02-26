@@ -1,13 +1,4 @@
-/* Styles for the Welcome page */
-.welcome-page {
-    background-image: url('daytime.JPEG');
-    background-size: cover;
-    background-position: center;
-}
-/* Styles for the Welcome page in night mode */
-body.night-mode .welcome-page {
-    background-image: url('nighttime.JPEG');
-}
+
 
 /* Style for the image in the Welcome section */
 .welcome-image {
