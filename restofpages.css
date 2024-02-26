@@ -36,33 +36,39 @@ body {
     margin-right: 160px;
 }
 
-/* Styles for the About, Socials, and Projects sections */
+
+#socials {
+    background-image: url('spacebackground.png');
+    background-size: cover;
+    background-position: center;
+}
+/* Styles for the About, Socials, and Projects sections in night mode */
 #about {
-    background-image: url('aboutdaymode.JPEG');
+    background-image: url('aboutnightmode.JPEG');
     background-size: cover;
     background-position: center;
 }
 
 #project1 {
-    background-image: url('project1day.JPEG');
+    background-image: url('project1night.JPEG');
     background-size: cover;
     background-position: center;
 }
 
-#project2{
-    background-image: url('project2day.JPEG');
+#project2 {
+    background-image: url('project2night.JPEG');
     background-size: cover;
     background-position: center;
 }
 
-#project3{
-    background-image: url('project3day.JPEG');
+#project3 {
+    background-image: url('project3night.JPEG');
     background-size: cover;
     background-position: center;
 }
 
-#project4{
-    background-image: url('project4day.JPEG');
+#project4 {
+    background-image: url('project4night.JPEG');
     background-size: cover;
     background-position: center;
 }
@@ -71,30 +77,6 @@ body {
     background-image: url('spacebackground.png');
     background-size: cover;
     background-position: center;
-}
-/* Styles for the About, Socials, and Projects sections in night mode */
-body.night-mode #about {
-    background-image: url('aboutnightmode.JPEG');
-}
-
-body.night-mode #project1 {
-    background-image: url('project1night.JPEG');
-}
-
-body.night-mode #project2 {
-    background-image: url('project2night.JPEG');
-}
-
-body.night-mode #project3 {
-    background-image: url('project3night.JPEG');
-}
-
-body.night-mode #project4 {
-    background-image: url('project4night.JPEG');
-}
-
-body.night-mode #socials {
-    background-image: url('spacebackground.png');
 }
 
 .logo {
